@@ -93,4 +93,23 @@ def write(img, text,
           thickness=2,
           line_type=cv.LINE_AA):
 
-    newImg
+    newImg = cv.putText(img,
+                        text,
+                        org,
+                        font,
+                        fontScale,
+                        color,
+                        thickness,
+                        line_type)
+
+    return newImg
+
+img = write(img, 'This is a sea creature')
+
+key = ord('r')
+while key != ord('s'):
+    cv.imshow("Octopus", img)
+    key = cv.waitKey()
+
+cv.destroyAllWindows()
+
