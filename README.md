@@ -50,5 +50,5 @@ This repository contains code snippets and examples used for CS455+555, Machine 
 7. Verify install with base import:
 
     ```console 
-    $ python3 base_import.py
+    $ python3 -V && pip3 list | grep opencv
     ```
