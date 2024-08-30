@@ -13,6 +13,7 @@ This repository contains code snippets and examples used for CS455+555, Machine 
 | File | Description |
 | :--- | :--- |
 | `examples/basic_image_stuff.py` | Reading + displaying image, webcam capture, image pixel access, image indexing, writing out image, drawing shapes |
+| `examples/geometric_transformations.py` | Basic image transformation examples such as rotation, translation, resizing, etc. |
 
 
 ### Usage

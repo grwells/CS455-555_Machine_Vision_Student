@@ -13,7 +13,6 @@ import mv_library
 #https://www.geeksforgeeks.org/how-to-display-multiple-images-in-one-window-using-opencv-python/
 
 #img = cv.imread('./sample_images/octo1.jpg')
-'''
 img = cv.imread('./sample_images/boat1.jpg')
 rows, columns, channels = img.shape
 mv_library.showImage(img)
@@ -39,12 +38,12 @@ mv_library.showImage(img)
 
 
 # Shear
-
+# a01 should be shx, a10 should be shy
 img = cv.imread('./sample_images/boat1.jpg')
 rows, columns, channels = img.shape
 M = np.float32([
-                [1, 0.1, 0],
-                [0, 1, 0 ]
+                [1, 0.5, 0],
+                [0.5, 1, 0 ]
             ])
 img = cv.warpAffine(img, M, (columns, rows))
 mv_library.showImage(img)
@@ -162,7 +161,6 @@ beta = 20.0
 img = cv.convertScaleAbs(img, alpha=alpha, beta=beta)
 mv_library.showImage(img)
 
-'''
 img = cv.imread('./sample_images/boat1.jpg')
 #Gamma Correction
 gamma = 1.0
