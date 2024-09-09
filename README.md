@@ -10,10 +10,19 @@ This repository contains code snippets and examples used for CS455+555, Machine 
 
 ## Index
 
-| File | Description |
-| :--- | :--- |
-| `examples/basic_image_stuff.py` | Reading + displaying image, webcam capture, image pixel access, image indexing, writing out image, drawing shapes |
-| `examples/geometric_transformations.py` | Basic image transformation examples such as rotation, translation, resizing, etc. |
+| File | From Lecture | Description |
+| :--- | :---: | :--- | 
+| `examples/basic_image_stuff.py`         | 4 | Reading + displaying image, webcam capture, image pixel access, image indexing, writing out image, drawing shapes |
+| `examples/basic_image_stuff.py`         | 5 | Pixel indexing, image datatype, saving images to files, drawing shapes over image (annotation) |
+| `examples/geometric_transformations.py` | 5 | Basic image transformation examples such as rotation, translation, resizing, etc. |
+| `examples/colormap.py`                  | 7 | Changing color space, RGB to grayscale, and colormapping (chaning color space) |
+| `examples/smoothing.py`                 | 7 | Applying average blur, Gaussian, median, and bilateral filters. |
+| `examples/arrays_json.py`               | ?? | Basic array/matrix manipulations and operations using `numpy` library and exporting to JSON file |
+| `examples/numpy_json.py`                | ?? | More array manipulations and JSON output | 
+| `examples/gradient.py`                  | 8 | Gradient calculation using Gaussian, Sobel kernels. |
+
+
+
 
 
 ### Usage
