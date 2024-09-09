@@ -20,6 +20,7 @@ This repository contains code snippets and examples used for CS455+555, Machine 
 | `examples/arrays_json.py`               | ?? | Basic array/matrix manipulations and operations using `numpy` library and exporting to JSON file |
 | `examples/numpy_json.py`                | ?? | More array manipulations and JSON output | 
 | `examples/gradient.py`                  | 8 | Gradient calculation using Gaussian, Sobel kernels. |
+| `examples/histogram.py`                 | 9 | Histogram calculation, equalization from image. |
 
 
 
