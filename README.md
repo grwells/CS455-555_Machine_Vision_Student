@@ -21,35 +21,38 @@ This repository contains code snippets and examples used for CS455+555, Machine 
 1. Clone
     
     ```console
-   $ git clone https://github.com/grwells/CS455-555_Machine_Vision.git
+   git clone https://github.com/grwells/CS455-555_Machine_Vision.git
     ```
 
 3. Move to examples.
     
     ```console
-    $ cd CS455-555_Machine_Vision/examples
+    cd CS455-555_Machine_Vision/examples
     ```
 
 4. Create virtual environment using desired python version:
 
     ```console
-    $ python3.xx -m venv venv
+    python3.xx -m venv venv
     ```
+
+    >[!NOTE]
+    >Replace `python3.xx` with something like `python3.11`, i.e. replace `xx` with the two digits of the python minor version number.
 
 5. Activate virtual environment.
 
     ```console
-    $ source venv/bin/activate
+    source venv/bin/activate
     ```
 
 6. Install requirements(OpenCV):
 
     ```console 
-    $ pip3 install -r requirements.txt
+    pip3 install -r requirements.txt
     ```
 
 7. Verify install with base import:
 
     ```console 
-    $ python3 -V && pip3 list | grep opencv
+    python3 -V && pip3 list | grep opencv
     ```
