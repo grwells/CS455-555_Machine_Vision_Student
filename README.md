@@ -10,10 +10,20 @@ This repository contains code snippets and examples used for CS455+555, Machine 
 
 ## Index
 
-| File | Description |
-| :--- | :--- |
-| `examples/basic_image_stuff.py` | Reading + displaying image, webcam capture, image pixel access, image indexing, writing out image, drawing shapes |
-| `examples/geometric_transformations.py` | Basic image transformation examples such as rotation, translation, resizing, etc. |
+| File | From Lecture | Description |
+| :--- | :---: | :--- | 
+| `examples/basic_image_stuff.py`         | 4 | Reading + displaying image, webcam capture, image pixel access, image indexing, writing out image, drawing shapes |
+| `examples/basic_image_stuff.py`         | 5 | Pixel indexing, image datatype, saving images to files, drawing shapes over image (annotation) |
+| `examples/geometric_transformations.py` | 5 | Basic image transformation examples such as rotation, translation, resizing, etc. |
+| `examples/colormap.py`                  | 7 | Changing color space, RGB to grayscale, and colormapping (chaning color space) |
+| `examples/smoothing.py`                 | 7 | Applying average blur, Gaussian, median, and bilateral filters. |
+| `examples/arrays_json.py`               | ?? | Basic array/matrix manipulations and operations using `numpy` library and exporting to JSON file |
+| `examples/numpy_json.py`                | ?? | More array manipulations and JSON output | 
+| `examples/gradient.py`                  | 8 | Gradient calculation using Gaussian, Sobel kernels. |
+| `examples/histogram.py`                 | 9 | Histogram calculation, equalization from image. |
+
+
+
 
 
 ### Usage
@@ -21,35 +31,38 @@ This repository contains code snippets and examples used for CS455+555, Machine 
 1. Clone
     
     ```console
-   $ git clone https://github.com/grwells/CS455-555_Machine_Vision.git
+   git clone https://github.com/grwells/CS455-555_Machine_Vision.git
     ```
 
-3. Move to examples.
+2. Move to examples.
     
     ```console
-    $ cd CS455-555_Machine_Vision/examples
+    cd CS455-555_Machine_Vision/examples
     ```
 
-4. Create virtual environment using desired python version:
+3. Create virtual environment using desired python version:
 
     ```console
-    $ python3.xx -m venv venv
+    python3.xx -m venv venv
     ```
 
-5. Activate virtual environment.
+>[!NOTE]
+>Replace `python3.xx` with something like `python3.11`, i.e. replace `xx` with the two digits of the python minor version number.
+
+4. Activate virtual environment.
 
     ```console
-    $ source venv/bin/activate
+    source venv/bin/activate
     ```
 
-6. Install requirements(OpenCV):
+5. Install requirements(OpenCV):
 
     ```console 
-    $ pip3 install -r requirements.txt
+    pip3 install -r requirements.txt
     ```
 
-7. Verify install with base import:
+6. Verify install with base import:
 
     ```console 
-    $ python3 -V && pip3 list | grep opencv
+    python3 -V && pip3 list | grep opencv
     ```
