@@ -21,6 +21,8 @@ This repository contains code snippets and examples used for CS455+555, Machine 
 | `examples/numpy_json.py`                | ?? | More array manipulations and JSON output | 
 | `examples/gradient.py`                  | 8 | Gradient calculation using Gaussian, Sobel kernels. |
 | `examples/histogram.py`                 | 9 | Histogram calculation, equalization from image. |
+| `examples/threshold.py`               | 10 | Applying thresholding to static images. |
+| `examples/morphological_ops.py`     | 11 | Applying grayscale, blur, and morphological operations with trackbar parameter adjustment. |
 
 
 
