@@ -24,9 +24,7 @@ This repository contains code snippets and examples used for CS455+555, Machine 
 | `examples/threshold.py`               | 10 | Applying thresholding to static images. |
 | `examples/morphological_ops.py`     | 11 | Applying grayscale, blur, and morphological operations with trackbar parameter adjustment. |
 | `examples/edge_detection.py`      | 12 | Edge Detection: Sobel, Canny, and Contours |
-
-
-
+| `examples/foreground.py`        | 14 | Foreground segmentation using connected components, background subtractors, GrabCut, distance transforms, and watershed. |
 
 
 ### Usage
